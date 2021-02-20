@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('') {
+    stage('Escreve msg') {
       steps {
-        echo 'HELLO WORD'
+        echo 'hello word'
       }
     }
 
